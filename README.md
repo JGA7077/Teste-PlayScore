@@ -10,3 +10,4 @@ Teste feito para testar as skills de frontend, tais como:
 
 ## Screenshot
 
+![](https://github.com/JGA7077/Teste-PlayScore/blob/master/screenshot/Screenshot_LiveScore.png)
