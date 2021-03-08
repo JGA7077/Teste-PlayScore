@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.home {
+    display: flex;
+}
+
+.esportes-icones {
+    display: flex;
+    flex-direction: column;
+    min-width: 50px;
+    background-color:#070a14;
+    min-height: 100%;
+    padding: 5px 10px;
+}
+
+.material-icons.md-orange { color: rgba(232, 124, 0, 1); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-48 { font-size: 48px; }
+
+.ligas-icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 50px;
+    background-color: #121830;
+    min-height: 100%;
+    padding: 5px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a0f1e;
+    padding: 20px;
+}
+
+header .perfil {
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+    padding: 0 10px;
+    color: white;
+}
+
+.header-texto span {
+    color: #e87c00;
+}
+
+.header-texto {
+     color: white;
+}
+
+#header-pesquisa {
+    background-color: #1b202e;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.principal {
+    min-width: 85%;
+    color: #717171;
+}
+
+.cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 50px 20px;
+    border-bottom: 1px solid #f4f5f8;
+}
+
+.cabecalho-detalhe {
+    display: flex;
+    justify-content: space-between;
+    min-width: 330px;
+}
+
+.cabecalho-info p {
+    font-weight: 700;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.cabecalho-info button {
+    font-weight: 700;
+    background-color: #e87c00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.principal h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cabecalho-jogos {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.cabecalho-jogos h4 {
+    margin-left: 20px;
+}
+
+.jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #717171;
+}
+
+.jogo p {
+    font-weight: 700;
+    padding: 50px 20px;
+}
+
+.jogo span {
+    color: red;
+}
